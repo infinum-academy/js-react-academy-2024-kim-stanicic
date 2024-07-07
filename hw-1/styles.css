@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    
+    max-width: 50%; 
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+#cover-photo {
+    width: 100%;
+}
+
+#review-form  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+
+}
+
+#rating {
+    width: 10%;
+}
+
+
+

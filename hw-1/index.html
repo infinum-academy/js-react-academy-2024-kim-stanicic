@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>ATLA review</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 id="app-title">TV shows review APP</h1>
+
+    <div id="info-section">
+        <h2>ATLA</h2>
+        <p>Water. Earth. Fire. Air. Long ago, the four nations lived together in harmony. Then, everything changed when the Fire Nation attacked. Only the Avatar, master of all four elements, could stop them, but when the world needed him most, he vanished. A hundred years passed and my brother and I discovered the new Avatar, an airbender named Aang, and although his airbending skills are great, he has a lot to learn before he's ready to save anyone. But I believe Aang can save the world.</p>
+        <img id="cover-photo" src="atla.jpg">
+    </div>
+
+    <div>
+
+        <h2>Reviews</h2>
+
+        <div id="review-form">
+            
+            <textarea value="add review" id="new-review" rows="4" required placeholder="Add review" required></textarea>
+    
+            <input type="number" id="rating" min="1" max="5" required placeholder="Add rating" required>
+    
+            <input type="submit" onclick="addReview()" value="Submit Review">
+            
+        </div>
+    
+        <div id= "reviews"></div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
